@@ -1,16 +1,28 @@
 #include<stdio.h>
 
+// function for taking input from user
+float input()
+{
+   float number; // declare variable
+
+   // take input
+   printf("Enter number: ");
+   scanf("%f", &number);
+
+   // return input value
+   return number;
+}
+
 // function to find sum of two numbers
 float addition(float num1, float num2)
 {
-   // declare variable
-   float sum;
+   return num1 + num2;
+}
 
-   // calculate sum value
-   sum = num1 + num2;
-
-   // return result
-   return sum;
+// function for displaying the result
+void display(float n1, float n2, float sum)
+{
+   printf("%.2f + %.2f = %.2f\n", n1, n2, sum);
 }
 
 int main()
@@ -18,16 +30,15 @@ int main()
    // declare variables
    float number1, number2, result;
 
-   // take input
-   printf("Enter two number: ");
-   scanf("%f %f",&number1, &number2);
+   // take input from end-user
+   number1 = input();
+   number2 = input();
 
-   // find addition of two numbers
+   // calculate addition of numbers
    result = addition(number1, number2);
 
-   // display result
-   printf("%.2f + %.2f = %.2f\n",
-               number1, number2, result);
+   // display results
+   display(number1, number2, result);
 
    return 0;
 }
