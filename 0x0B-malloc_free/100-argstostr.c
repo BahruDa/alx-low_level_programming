@@ -2,63 +2,87 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *_strcat(char *dest, char *src);
+
 /**
- * strtow - concatenates all the arguments of your program
- *@str: string
- *@av: arguments
+ * argstostr - concatenates all the arguments
+ * @av: the content
+ * @ac: the size of the content
+ *
  * Return: a pointer to a new string
  */
-char **strtow(char *str)
+char *argstostr(int ac, char **av)
 {
-	int i, w, j, k, count, m, wordf;
-	char **p;
-	char *x;
+	char *new, *salt;
+	int i, j, k;
 
-	w = 0;
-	j = 0;
-	i = 0;
-	count = 0;
-	if (*str == '\0' || str == NULL)
-		return (NULL);
-	for (i = 0; str[i] != '\0'; i++)
+	if (ac == 0 || av == NULL)
 	{
-		if (str[i] == ' ' && (str[i + 1] != ' ' || str[i + 1] == '\0'))
-			w++;
+		return (NULL);
 	}
-	p = (char **)malloc((w + 1) * sizeof(char *));
-	if (p == NULL)
-		return (NULL);
-	for (wordf = 0; str[wordf] && j <= w; wordf++)
+	else
 	{
-		count = 0;
-		if (str[wordf] != ' ')
+		for (i = 0, k = 0 ; i < ac ; i++, k++)
 		{
-			for (i = wordf ; str[i] != '\0'; i++)
+			for (j = 0 ; av[i][j] != '\0' ; j++, k++)
 			{
-				if (str[i] == ' ')
-					break;
-				count++;
+				;
 			}
-			*(p + j) = (char *)malloc((count + 1) * sizeof(char));
-			if (*(p + j) == NULL)
+		}
+		new = malloc(sizeof(char) * (k + 1));
+		salt = "\n";
+		for (i = 0 ; i < ac ; i++)
+		{
+			new = _strcat(new, av[i]);
+			if (new == NULL)
 			{
-				for (k = 0; k <= j; k++)
-				{
-					x = p[k];
-					free(x);
-				}
-				free(p);
 				return (NULL);
 			}
-			for (m = 0; wordf < i; wordf++)
+			if (i + 1 < ac)
 			{
-				p[j][m] = str[wordf];
-				m++;
+				new = _strcat(new, salt);
+				if (new == NULL)
+				{
+					return (NULL);
+				}
 			}
-			p[j][m] = '\0';
-			j++;
 		}
+
 	}
-	p[j] = NULL;
-	return (p);
+	new = _strcat(new, salt);
+	if (new == NULL)
+	{
+		return (NULL);
+	}
+	return (new);
+}
+
+/**
+ * _strcat - concatenates two strings
+ * @dest: input parameter string
+ * @src: input parameter string
+ *
+ * Return: dest
+ */
+char *_strcat(char *dest, char *src)
+{
+	int a;
+	int b;
+
+	a = 0;
+
+	while (dest[a] != 0)
+	{
+		a++;
+	}
+
+	b = 0;
+
+	while (src[b] != 0)
+	{
+		dest[a] = src[b];
+		a++;
+		b++;
+	}
+	return (dest);
 }
