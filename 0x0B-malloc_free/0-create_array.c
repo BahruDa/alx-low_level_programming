@@ -1,5 +1,7 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+
 /**
  * create_array - create an array of chars
  * @size: size of the memory to print
