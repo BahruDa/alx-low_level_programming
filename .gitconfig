@@ -1,0 +1,9 @@
+[user]
+	email = bahrudari68@gmail.com
+	name = BahruDa
+[credential]
+	helper = store
+[credintial]
+	helper = store
+[remote "origin"]
+	url = https://github.com/BahruDa/alx-low_level_programming.git
