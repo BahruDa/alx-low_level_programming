@@ -12,9 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1670471121,,"wq"
+|2,0,1671655061,,"wq"
+:q!
+|2,0,1671654804,,"q!"
 :wq 
-|2,0,1670471049,,"wq "
+|2,0,1671653596,,"wq "
 :q 
 |2,0,1670469642,,"q "
 :q
@@ -44,230 +46,428 @@
 # global variables:
 
 # File marks:
-'0  154  1  ~/simple_shell/vars.c
-|4,48,154,1,1670471121,"~/simple_shell/vars.c"
-'1  94  1  ~/simple_shell/tokenizer.c
-|4,49,94,1,1670471049,"~/simple_shell/tokenizer.c"
-'2  87  1  ~/simple_shell/string1.c
-|4,50,87,1,1670470991,"~/simple_shell/string1.c"
-'3  75  1  ~/simple_shell/string.c
-|4,51,75,1,1670470924,"~/simple_shell/string.c"
-'4  178  1  ~/simple_shell/shell_loop.c
-|4,52,178,1,1670470876,"~/simple_shell/shell_loop.c"
-'5  253  6  ~/simple_shell/shell.h
-|4,53,253,6,1670470811,"~/simple_shell/shell.h"
-'6  62  1  ~/simple_shell/realloc.c
-|4,54,62,1,1670470733,"~/simple_shell/realloc.c"
-'7  103  1  ~/simple_shell/parser.c
-|4,55,103,1,1670470683,"~/simple_shell/parser.c"
-'8  18  1  ~/simple_shell/memory.c
-|4,56,18,1,1670470634,"~/simple_shell/memory.c"
-'9  61  1  ~/simple_shell/main.c
-|4,57,61,1,1670470585,"~/simple_shell/main.c"
+'0  6  25  ~/simple_shell/simple_shell/vars.c
+|4,48,6,25,1671655061,"~/simple_shell/simple_shell/vars.c"
+'1  7  64  ~/simple_shell/simple_shell/tokenizer.c
+|4,49,7,64,1671655034,"~/simple_shell/simple_shell/tokenizer.c"
+'2  5  26  ~/simple_shell/simple_shell/string1.c
+|4,50,5,26,1671654995,"~/simple_shell/simple_shell/string1.c"
+'3  62  2  ~/simple_shell/simple_shell/string.c
+|4,51,62,2,1671654973,"~/simple_shell/simple_shell/string.c"
+'4  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,52,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+'5  7  2  ~/simple_shell/simple_shell/memory.c
+|4,53,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+'6  1  0  ~/simple_shell/simple_shell/memory
+|4,54,1,0,1671654804,"~/simple_shell/simple_shell/memory"
+'7  7  25  ~/simple_shell/simple_shell/lists1.c
+|4,55,7,25,1671654768,"~/simple_shell/simple_shell/lists1.c"
+'8  9  24  ~/simple_shell/simple_shell/lists.c
+|4,56,9,24,1671654721,"~/simple_shell/simple_shell/lists.c"
+'9  5  27  ~/simple_shell/simple_shell/history.c
+|4,57,5,27,1671654636,"~/simple_shell/simple_shell/history.c"
 
 # Jumplist (newest first):
--'  154  1  ~/simple_shell/vars.c
-|4,39,154,1,1670471121,"~/simple_shell/vars.c"
--'  1  0  ~/simple_shell/vars.c
-|4,39,1,0,1670471074,"~/simple_shell/vars.c"
--'  94  1  ~/simple_shell/tokenizer.c
-|4,39,94,1,1670471049,"~/simple_shell/tokenizer.c"
--'  94  1  ~/simple_shell/tokenizer.c
-|4,39,94,1,1670471049,"~/simple_shell/tokenizer.c"
--'  1  0  ~/simple_shell/tokenizer.c
-|4,39,1,0,1670471017,"~/simple_shell/tokenizer.c"
--'  1  0  ~/simple_shell/tokenizer.c
-|4,39,1,0,1670471017,"~/simple_shell/tokenizer.c"
--'  87  1  ~/simple_shell/string1.c
-|4,39,87,1,1670470991,"~/simple_shell/string1.c"
--'  87  1  ~/simple_shell/string1.c
-|4,39,87,1,1670470991,"~/simple_shell/string1.c"
--'  87  1  ~/simple_shell/string1.c
-|4,39,87,1,1670470991,"~/simple_shell/string1.c"
--'  87  1  ~/simple_shell/string1.c
-|4,39,87,1,1670470991,"~/simple_shell/string1.c"
--'  1  0  ~/simple_shell/string1.c
-|4,39,1,0,1670470943,"~/simple_shell/string1.c"
--'  1  0  ~/simple_shell/string1.c
-|4,39,1,0,1670470943,"~/simple_shell/string1.c"
--'  1  0  ~/simple_shell/string1.c
-|4,39,1,0,1670470943,"~/simple_shell/string1.c"
--'  1  0  ~/simple_shell/string1.c
-|4,39,1,0,1670470943,"~/simple_shell/string1.c"
--'  75  1  ~/simple_shell/string.c
-|4,39,75,1,1670470924,"~/simple_shell/string.c"
--'  75  1  ~/simple_shell/string.c
-|4,39,75,1,1670470924,"~/simple_shell/string.c"
--'  75  1  ~/simple_shell/string.c
-|4,39,75,1,1670470924,"~/simple_shell/string.c"
--'  75  1  ~/simple_shell/string.c
-|4,39,75,1,1670470924,"~/simple_shell/string.c"
--'  75  1  ~/simple_shell/string.c
-|4,39,75,1,1670470924,"~/simple_shell/string.c"
--'  75  1  ~/simple_shell/string.c
-|4,39,75,1,1670470924,"~/simple_shell/string.c"
--'  75  1  ~/simple_shell/string.c
-|4,39,75,1,1670470924,"~/simple_shell/string.c"
--'  75  1  ~/simple_shell/string.c
-|4,39,75,1,1670470924,"~/simple_shell/string.c"
--'  1  0  ~/simple_shell/string.c
-|4,39,1,0,1670470895,"~/simple_shell/string.c"
--'  1  0  ~/simple_shell/string.c
-|4,39,1,0,1670470895,"~/simple_shell/string.c"
--'  1  0  ~/simple_shell/string.c
-|4,39,1,0,1670470895,"~/simple_shell/string.c"
--'  1  0  ~/simple_shell/string.c
-|4,39,1,0,1670470895,"~/simple_shell/string.c"
--'  1  0  ~/simple_shell/string.c
-|4,39,1,0,1670470895,"~/simple_shell/string.c"
--'  1  0  ~/simple_shell/string.c
-|4,39,1,0,1670470895,"~/simple_shell/string.c"
--'  1  0  ~/simple_shell/string.c
-|4,39,1,0,1670470895,"~/simple_shell/string.c"
--'  1  0  ~/simple_shell/string.c
-|4,39,1,0,1670470895,"~/simple_shell/string.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  178  1  ~/simple_shell/shell_loop.c
-|4,39,178,1,1670470876,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  1  0  ~/simple_shell/shell_loop.c
-|4,39,1,0,1670470831,"~/simple_shell/shell_loop.c"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  253  6  ~/simple_shell/shell.h
-|4,39,253,6,1670470811,"~/simple_shell/shell.h"
--'  1  0  ~/simple_shell/shell.h
-|4,39,1,0,1670470760,"~/simple_shell/shell.h"
--'  1  0  ~/simple_shell/shell.h
-|4,39,1,0,1670470760,"~/simple_shell/shell.h"
--'  1  0  ~/simple_shell/shell.h
-|4,39,1,0,1670470760,"~/simple_shell/shell.h"
--'  1  0  ~/simple_shell/shell.h
-|4,39,1,0,1670470760,"~/simple_shell/shell.h"
--'  1  0  ~/simple_shell/shell.h
-|4,39,1,0,1670470760,"~/simple_shell/shell.h"
--'  1  0  ~/simple_shell/shell.h
-|4,39,1,0,1670470760,"~/simple_shell/shell.h"
+-'  6  25  ~/simple_shell/simple_shell/vars.c
+|4,39,6,25,1671655061,"~/simple_shell/simple_shell/vars.c"
+-'  1  0  ~/simple_shell/simple_shell/vars.c
+|4,39,1,0,1671655045,"~/simple_shell/simple_shell/vars.c"
+-'  7  64  ~/simple_shell/simple_shell/tokenizer.c
+|4,39,7,64,1671655034,"~/simple_shell/simple_shell/tokenizer.c"
+-'  7  64  ~/simple_shell/simple_shell/tokenizer.c
+|4,39,7,64,1671655034,"~/simple_shell/simple_shell/tokenizer.c"
+-'  1  0  ~/simple_shell/simple_shell/tokenizer.c
+|4,39,1,0,1671655024,"~/simple_shell/simple_shell/tokenizer.c"
+-'  1  0  ~/simple_shell/simple_shell/tokenizer.c
+|4,39,1,0,1671655024,"~/simple_shell/simple_shell/tokenizer.c"
+-'  5  26  ~/simple_shell/simple_shell/string1.c
+|4,39,5,26,1671654995,"~/simple_shell/simple_shell/string1.c"
+-'  5  26  ~/simple_shell/simple_shell/string1.c
+|4,39,5,26,1671654995,"~/simple_shell/simple_shell/string1.c"
+-'  5  26  ~/simple_shell/simple_shell/string1.c
+|4,39,5,26,1671654995,"~/simple_shell/simple_shell/string1.c"
+-'  5  26  ~/simple_shell/simple_shell/string1.c
+|4,39,5,26,1671654995,"~/simple_shell/simple_shell/string1.c"
+-'  1  0  ~/simple_shell/simple_shell/string1.c
+|4,39,1,0,1671654985,"~/simple_shell/simple_shell/string1.c"
+-'  1  0  ~/simple_shell/simple_shell/string1.c
+|4,39,1,0,1671654985,"~/simple_shell/simple_shell/string1.c"
+-'  1  0  ~/simple_shell/simple_shell/string1.c
+|4,39,1,0,1671654985,"~/simple_shell/simple_shell/string1.c"
+-'  1  0  ~/simple_shell/simple_shell/string1.c
+|4,39,1,0,1671654985,"~/simple_shell/simple_shell/string1.c"
+-'  62  2  ~/simple_shell/simple_shell/string.c
+|4,39,62,2,1671654973,"~/simple_shell/simple_shell/string.c"
+-'  62  2  ~/simple_shell/simple_shell/string.c
+|4,39,62,2,1671654973,"~/simple_shell/simple_shell/string.c"
+-'  62  2  ~/simple_shell/simple_shell/string.c
+|4,39,62,2,1671654973,"~/simple_shell/simple_shell/string.c"
+-'  62  2  ~/simple_shell/simple_shell/string.c
+|4,39,62,2,1671654973,"~/simple_shell/simple_shell/string.c"
+-'  62  2  ~/simple_shell/simple_shell/string.c
+|4,39,62,2,1671654973,"~/simple_shell/simple_shell/string.c"
+-'  62  2  ~/simple_shell/simple_shell/string.c
+|4,39,62,2,1671654973,"~/simple_shell/simple_shell/string.c"
+-'  62  2  ~/simple_shell/simple_shell/string.c
+|4,39,62,2,1671654973,"~/simple_shell/simple_shell/string.c"
+-'  62  2  ~/simple_shell/simple_shell/string.c
+|4,39,62,2,1671654973,"~/simple_shell/simple_shell/string.c"
+-'  75  0  ~/simple_shell/simple_shell/string.c
+|4,39,75,0,1671654960,"~/simple_shell/simple_shell/string.c"
+-'  75  0  ~/simple_shell/simple_shell/string.c
+|4,39,75,0,1671654960,"~/simple_shell/simple_shell/string.c"
+-'  75  0  ~/simple_shell/simple_shell/string.c
+|4,39,75,0,1671654960,"~/simple_shell/simple_shell/string.c"
+-'  75  0  ~/simple_shell/simple_shell/string.c
+|4,39,75,0,1671654960,"~/simple_shell/simple_shell/string.c"
+-'  75  0  ~/simple_shell/simple_shell/string.c
+|4,39,75,0,1671654960,"~/simple_shell/simple_shell/string.c"
+-'  75  0  ~/simple_shell/simple_shell/string.c
+|4,39,75,0,1671654960,"~/simple_shell/simple_shell/string.c"
+-'  75  0  ~/simple_shell/simple_shell/string.c
+|4,39,75,0,1671654960,"~/simple_shell/simple_shell/string.c"
+-'  75  0  ~/simple_shell/simple_shell/string.c
+|4,39,75,0,1671654960,"~/simple_shell/simple_shell/string.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  6  1  ~/simple_shell/simple_shell/realloc.c
+|4,39,6,1,1671654889,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  60  0  ~/simple_shell/simple_shell/realloc.c
+|4,39,60,0,1671654850,"~/simple_shell/simple_shell/realloc.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  7  2  ~/simple_shell/simple_shell/memory.c
+|4,39,7,2,1671654830,"~/simple_shell/simple_shell/memory.c"
+-'  1  0  ~/simple_shell/simple_shell/memory.c
+|4,39,1,0,1671654814,"~/simple_shell/simple_shell/memory.c"
+-'  1  0  ~/simple_shell/simple_shell/memory.c
+|4,39,1,0,1671654814,"~/simple_shell/simple_shell/memory.c"
+-'  1  0  ~/simple_shell/simple_shell/memory.c
+|4,39,1,0,1671654814,"~/simple_shell/simple_shell/memory.c"
+-'  1  0  ~/simple_shell/simple_shell/memory.c
+|4,39,1,0,1671654814,"~/simple_shell/simple_shell/memory.c"
+-'  1  0  ~/simple_shell/simple_shell/memory.c
+|4,39,1,0,1671654814,"~/simple_shell/simple_shell/memory.c"
+-'  1  0  ~/simple_shell/simple_shell/memory.c
+|4,39,1,0,1671654814,"~/simple_shell/simple_shell/memory.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/simple_shell/simple_shell/vars.c
+	*	1671655052	0
+	"	6	25
+	^	6	26
+	.	6	25
+	+	1	0
+	+	6	25
+
+> ~/simple_shell/simple_shell/tokenizer.c
+	*	1671655030	0
+	"	7	64
+	^	7	65
+	.	7	64
+	+	1	1
+	+	7	64
+
+> ~/simple_shell/simple_shell/string1.c
+	*	1671654991	0
+	"	5	26
+	^	5	27
+	.	5	26
+	+	1	1
+	+	5	26
+
+> ~/simple_shell/simple_shell/string.c
+	*	1671654968	0
+	"	62	2
+	^	61	28
+	.	61	27
+	+	1	0
+	+	61	27
+
+> ~/simple_shell/simple_shell/realloc.c
+	*	1671654884	0
+	"	6	1
+	^	5	38
+	.	5	37
+	+	5	37
+
+> ~/simple_shell/simple_shell/memory.c
+	*	1671654827	0
+	"	7	2
+	^	6	5
+	.	6	4
+	+	1	1
+	+	6	4
+
+> ~/simple_shell/simple_shell/memory
+	*	1671654798	0
+	"	1	0
+
+> ~/simple_shell/simple_shell/lists1.c
+	*	1671654765	0
+	"	7	25
+	^	7	26
+	.	7	25
+	+	1	0
+	+	7	25
+
+> ~/simple_shell/simple_shell/lists.c
+	*	1671654717	0
+	"	9	24
+	^	9	25
+	.	9	24
+	+	1	0
+	+	9	24
+
+> ~/simple_shell/simple_shell/history.c
+	*	1671654632	0
+	"	5	27
+	^	5	28
+	.	5	27
+	+	7	39
+	+	5	27
+
+> ~/simple_shell/simple_shell/getinfo.c
+	*	1671654550	0
+	"	18	24
+	^	18	25
+	.	18	24
+	+	18	24
+
+> ~/simple_shell/simple_shell/getLine.c
+	*	1671654070	0
+	"	9	21
+	^	9	22
+	.	9	22
+	+	9	22
+
+> ~/simple_shell/simple_shell/shell_loop.c
+	*	1671653552	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	1	1
+	+	1	0
+	+	2	0
+
+> ~/simple_shell/simple_shell/shell.h
+	*	1671653175	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/simple_shell/simple_shell/parser.c
+	*	1671653106	0
+	"	86	0
+	^	1	0
+	.	2	0
+	+	1	159
+	+	1	0
+	+	2	0
+
+> ~/simple_shell/simple_shell/main.c
+	*	1671653020	0
+	"	17	0
+	^	44	1
+	.	44	0
+	+	1	0
+	+	1	54
+	+	1	0
+	+	44	0
+
+> ~/simple_shell/simple_shell/getenv.c
+	*	1671652578	0
+	"	7	19
+	^	7	20
+	.	7	20
+	+	7	20
+
+> ~/simple_shell/simple_shell/exits.c
+	*	1671652497	0
+	"	6	25
+	^	6	26
+	.	6	26
+	+	6	26
+
+> ~/simple_shell/simple_shell/errors1.c
+	*	1671652452	0
+	"	7	21
+	^	7	22
+	.	7	21
+	+	1	0
+	+	7	21
+
+> ~/simple_shell/simple_shell/errors.c
+	*	1671652420	0
+	"	7	20
+	^	7	21
+	.	7	20
+	+	7	20
+
+> ~/simple_shell/simple_shell/environ.c
+	*	1671652372	0
+	"	5	69
+	^	5	70
+	.	5	69
+	+	5	69
+
+> ~/simple_shell/simple_shell/builtin1.c
+	*	1671652323	0
+	"	7	37
+	^	7	38
+	.	7	38
+	+	4	73
+	+	7	38
+
+> ~/simple_shell/simple_shell/builtin.c
+	*	1671652282	0
+	"	6	30
+	^	6	31
+	.	6	30
+	+	6	30
+
+> ~/simple_shell/simple_shell/_atoi.c
+	*	1671652239	0
+	"	4	58
+	^	4	59
+	.	4	58
+	+	1	0
+	+	4	58
+
+> ~/simple_shell/simple_shell/README.md
+	*	1671652179	0
+	"	1	41
+	^	1	42
+	.	1	41
+	+	1	41
+
+> ~/simple_shell/simple_shell/AUTHORS
+	*	1671651519	0
+	"	1	57
+	^	1	58
+	.	1	57
+	+	1	57
 
 > ~/simple_shell/vars.c
 	*	1670471115	0
@@ -800,203 +1000,3 @@
 > ~/printf/functions2.c
 	*	1669293458	0
 	"	1	0
-
-> ~/printf/handle_print.c
-	*	1669293387	0
-	"	50	0
-
-> ~/printf/README.md
-	*	1669293317	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x12-singly_linked_lists/101-hello_holberton.asm
-	*	1669281828	0
-	"	16	20
-	^	16	21
-	.	16	63
-	+	16	63
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x12-singly_linked_lists/100-first.c
-	*	1669281644	0
-	"	15	0
-	^	15	1
-	.	15	0
-	+	15	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x12-singly_linked_lists/lists.h
-	*	1669277854	0
-	"	19	19
-	^	19	20
-	.	13	10
-	+	29	5
-	+	13	10
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x12-singly_linked_lists/README.md
-	*	1669277718	0
-	"	1	81
-	^	1	82
-	.	1	81
-	+	1	81
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x12-singly_linked_lists/4-free_list.c
-	*	1669277612	0
-	"	21	0
-	^	21	1
-	.	21	0
-	+	21	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x12-singly_linked_lists/3-add_node_end.c
-	*	1669277492	0
-	"	50	0
-	^	50	1
-	.	50	0
-	+	50	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x12-singly_linked_lists/2-add_node.c
-	*	1669277330	0
-	"	41	13
-	^	42	1
-	.	42	0
-	+	42	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
-	*	1669277211	0
-	"	24	0
-	^	24	1
-	.	24	0
-	+	24	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x12-singly_linked_lists/0-print_list.c
-	*	1669276983	0
-	"	30	0
-	^	30	1
-	.	30	0
-	+	30	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0C-more_malloc_free/101-mul.c
-	*	1668054568	0
-	"	47	0
-	^	47	1
-	.	47	0
-	+	47	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0C-more_malloc_free/100-realloc.c
-	*	1668054394	0
-	"	55	0
-	^	55	1
-	.	55	0
-	+	55	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0C-more_malloc_free/3-array_range.c
-	*	1668054200	0
-	"	31	0
-	^	31	1
-	.	31	0
-	+	31	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0C-more_malloc_free/2-calloc.c
-	*	1668053956	0
-	"	30	0
-	^	30	1
-	.	30	0
-	+	30	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0C-more_malloc_free/1-string_nconcat.c
-	*	1668053733	0
-	"	52	0
-	^	52	1
-	.	52	0
-	+	52	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0C-more_malloc_free/0-malloc_checked.c
-	*	1668053563	0
-	"	20	0
-	^	20	1
-	.	20	0
-	+	20	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0C-more_malloc_free/main.h
-	*	1668053412	0
-	"	10	5
-	^	10	6
-	.	10	5
-	+	10	5
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0C-more_malloc_free/README.md
-	*	1668053312	0
-	"	1	20
-	^	1	21
-	.	1	20
-	+	1	20
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x09-static_libraries/libmy.a
-	*	1667855403	0
-	"	81	22
-	^	81	24
-	.	81	23
-	+	1	729
-	+	1	586
-	+	1	12
-	+	46	8537
-	+	46	8482
-	+	46	7242
-	+	46	7448
-	+	46	5347
-	+	46	1617
-	+	46	1409
-	+	20	9
-	+	21	0
-	+	20	10
-	+	81	23
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x09-static_libraries/main.h
-	*	1667848984	0
-	"	18	35
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x09-static_libraries/main.c
-	*	1667847963	0
-	"	1	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x09-static_libraries/create_static_lib.sh
-	*	1667846397	0
-	"	3	20
-	^	3	21
-	.	3	20
-	+	1	11
-	+	3	20
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0B-malloc_free/101-strtow.c
-	*	1667845749	0
-	"	103	0
-	^	103	1
-	.	103	0
-	+	5	270
-	+	4	0
-	+	3	18
-	+	5	228
-	+	103	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0B-malloc_free/100-argstostr.c
-	*	1667844687	0
-	"	1	0
-	^	1	1
-	.	88	0
-	+	5	66
-	+	4	0
-	+	3	18
-	+	5	140
-	+	5	115
-	+	5	119
-	+	5	66
-	+	88	0
-
-> ~/alx-low_level_programming/alx-low_level_programming/0x0B-malloc_free/4-free_grid.c
-	*	1667843911	0
-	"	3	18
-	^	3	19
-	.	3	18
-	+	22	0
-	+	4	0
-	+	3	18
