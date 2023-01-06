@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0-isupper.o
 0-memset.o
 0-strcat.o
@@ -19,6 +20,8 @@
 9-strcpy.o
 _putchar.o
 
+=======
+>>>>>>> d7a5346a3776e683ef8e65865234c0e1688f4020
 0-isupper.o:
 0000000000000000 T _isupper
 
@@ -80,6 +83,7 @@ _putchar.o
 _putchar.o:
 0000000000000000 T _putchar
                  U write
+<<<<<<< HEAD
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -100,3 +104,5 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+=======
+>>>>>>> d7a5346a3776e683ef8e65865234c0e1688f4020
