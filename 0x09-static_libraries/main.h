@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-#ifndef _MAIN_H_
-#define _MAIN_H_
-
-=======
 #ifndef MAIN_H
 #define MAIN_H
-/**
- * File: main
- *
- *Desc: header file
- */
->>>>>>> d7a5346a3776e683ef8e65865234c0e1688f4020
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
